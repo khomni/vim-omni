@@ -19,3 +19,14 @@ nnoremap <S-h> gT
 
 nnoremap <F2> :Gstatus<cr>
 nnoremap <F3> :Gcommit<cr>
+
+" QUICKFIX NAVIGATION:
+" navigate quickfix with Ctrl + (j / k)
+" (requires ./functions.vim)
+map <C-j> :QNL<cr>
+map <C-k> :QPF<cr>
+
+" LOCATION LIST NAVIGATION:
+" navigate location list with Ctrl + (h / l)
+nnoremap <C-l> :LNL<cr>
+nnoremap <C-h> :LPF<cr>
