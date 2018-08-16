@@ -1,11 +1,7 @@
-let s:colors=['srcery', 'deus', 'azuki']
+let s:colors=systemlist('ls -rtU ~/.vim/colors | grep -oE "^[a-zA-Z]+"')
 let s:prefab_colors={
-      \ }
-
-" quickly set the colors that govern the statusbar
-function! ResetStatusColors(light, med, dark)
-	" Default — 
-endfunction
+	\ 'algus': 'srcery'
+	\ }
 
 " Custom Hex values
 let s:statusLight = "#E0CCAE"

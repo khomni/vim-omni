@@ -1,15 +1,19 @@
 call plug#begin('~/.vim/plugged')
 
-Plug 'Valloric/YouCompleteMe'
-Plug 'tpope/vim-surround'
 Plug 'kien/ctrlp.vim'
-Plug 'vim-syntastic/syntastic'
-Plug 'scrooloose/nerdtree'
-Plug 'tpope/vim-fugitive'
+Plug 'moll/vim-node'
+Plug 'mxw/vim-jsx'
 Plug 'pangloss/vim-javascript'
+Plug 'plasticboy/vim-markdown'
+Plug 'scrooloose/nerdtree'
+Plug 'ternjs/tern_for_vim'
+Plug 'Townk/vim-autoclose'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
+Plug 'Valloric/YouCompleteMe'
+Plug 'vim-syntastic/syntastic'
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-session'
-Plug 'plasticboy/vim-markdown'
 
 call plug#end()
 

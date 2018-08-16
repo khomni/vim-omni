@@ -61,6 +61,9 @@ if !exists("autocommands_loaded")
     " autocmd FileType javascript
   augroup END
 
+  autocmd BufEnter .eslintrc set syntax=json
+
+
 endif
 
 
